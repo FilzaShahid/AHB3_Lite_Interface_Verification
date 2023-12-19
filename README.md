@@ -6,6 +6,6 @@ To create a layered testbench architecture design in System Verilog for AHB-Lite
 
 For observing waveform in gui:
 
-          vcs -lca -debug_access+all -sverilog design_files/*.sv verif/*.sv tests/*.sv testbench.sv
-          ./simv -gui &
+    vcs -lca -debug_access+all -sverilog design_files/*.sv verif/*.sv tests/*.sv testbench.sv
+    ./simv -gui &
           
