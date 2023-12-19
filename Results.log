@@ -1,0 +1,2461 @@
+
+------------------------------Test : 1 test_rand_wr_rd_fixed_addr------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 18:45 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e5ef8c27 Actual = e5ef8c27
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e5ef8c27 Actual = e5ef8c27
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e5ef8c27 Actual = e5ef8c27
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 38d2c080 Actual = 38d2c080
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 87c4370d Actual = 87c4370d
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 155
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 13-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 87c4370d Actual = 87c4370d
+Info: "scoreboard.sv", 199: $unit: at time 155
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 165
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 14-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 87c4370d Actual = 87c4370d
+Info: "scoreboard.sv", 199: $unit: at time 165
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 175
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 15-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e8f5a7bb Actual = e8f5a7bb
+Info: "scoreboard.sv", 199: $unit: at time 175
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 185
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 16-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e8f5a7bb Actual = e8f5a7bb
+Info: "scoreboard.sv", 199: $unit: at time 185
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 195
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 17-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e8f5a7bb Actual = e8f5a7bb
+Info: "scoreboard.sv", 199: $unit: at time 195
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 205
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 18-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 41d28bd5 Actual = 41d28bd5
+Info: "scoreboard.sv", 199: $unit: at time 205
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 215
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 19-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = fe81a861 Actual = fe81a861
+Info: "scoreboard.sv", 199: $unit: at time 215
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 20 
+ 	 No. of Matches    = 20 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 215
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 18:45:50 2023
+------------------------------Test : 2 test_wr_not_ready_in_addr_phase------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:03 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = d Actual = d
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 4 
+ 	 No. of Matches    = 4 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                   55
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 55
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:03:54 2023
+------------------------------Test : 3 test_rd_not_ready_in_addr_phase------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:04 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = d Actual = d
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 10 
+ 	 No. of Matches    = 8 
+ 	 No. of MisMatches = 2 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:04:46 2023
+------------------------------Test : 4 test_wr_not_ready_in_data_phase------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:08 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = b Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = e Actual = e
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 6 
+ 	 No. of Matches    = 6 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                   75
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:08:54 2023
+------------------------------Test : 5 test_rd_not_ready_in_data_phase------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:09 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = b Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = b Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = b Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = b Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = b Actual = b
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 10 
+ 	 No. of Matches    = 8 
+ 	 No. of MisMatches = 2 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:09:32 2023
+------------------------------Test : 6 test_sel------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:10 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 10,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 10,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 14,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 14,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 155
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 13-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 155
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 165
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 14-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 165
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 175
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 15-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 1c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 175
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 185
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 16-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 1c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 185
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 195
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 17-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 195
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 205
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 18-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 205
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 215
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 19-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 215
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 20 
+ 	 No. of Matches    = 20 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 215
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:10:45 2023
+------------------------------Test : 7 test_not_ready------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:11 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 10,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 10,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 14,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 14,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 155
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 13-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 155
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 165
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 14-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 165
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 175
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 15-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 1c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 175
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 185
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 16-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 1c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 185
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 195
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 17-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 195
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 205
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 18-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 205
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 215
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 19-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 215
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 20 
+ 	 No. of Matches    = 20 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 215
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:11:45 2023
+------------------------------Test : 8 test_nonseq_wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:14 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 6da5ccdf Actual = 6da5ccdf
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 6da5ccdf Actual = 6da5ccdf
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 65e2006 Actual = 65e2006
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 65e2006 Actual = 65e2006
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 10,
+ 	   Data :: Expected = a7a1d39a Actual = a7a1d39a
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 10,
+ 	   Data :: Expected = a7a1d39a Actual = a7a1d39a
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 14,
+ 	   Data :: Expected = 1a0a7944 Actual = 1a0a7944
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 14,
+ 	   Data :: Expected = 1a0a7944 Actual = 1a0a7944
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 155
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 13-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 18,
+ 	   Data :: Expected = f7db5bf0 Actual = f7db5bf0
+Info: "scoreboard.sv", 199: $unit: at time 155
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 165
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 14-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 18,
+ 	   Data :: Expected = f7db5bf0 Actual = f7db5bf0
+Info: "scoreboard.sv", 199: $unit: at time 165
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 175
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 15-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 1c,
+ 	   Data :: Expected = 9bcbf2cf Actual = 9bcbf2cf
+Info: "scoreboard.sv", 199: $unit: at time 175
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 185
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 16-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 1c,
+ 	   Data :: Expected = 9bcbf2cf Actual = 9bcbf2cf
+Info: "scoreboard.sv", 199: $unit: at time 185
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 195
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 17-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 316e038 Actual = 316e038
+Info: "scoreboard.sv", 199: $unit: at time 195
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 205
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 18-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 316e038 Actual = 316e038
+Info: "scoreboard.sv", 199: $unit: at time 205
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 215
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 19-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 1c255116 Actual = 1c255116
+Info: "scoreboard.sv", 199: $unit: at time 215
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 20 
+ 	 No. of Matches    = 20 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 215
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:14:14 2023
+------------------------------Test : 9 test_seq_wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:21 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 58,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 5c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 5c,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 60,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 64,
+ 	   Data :: Expected = 6da5ccdf Actual = 6da5ccdf
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 58,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 5c,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 60,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 60,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 64,
+ 	   Data :: Expected = 6da5ccdf Actual = 6da5ccdf
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 12 
+ 	 No. of Matches    = 12 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  135
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 135
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:21:21 2023
+------------------------------Test : 10 test_idle_wr------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:35 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = e1a4ccc3 Actual = e1a4ccc3
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = a7a1d39a Actual = a7a1d39a
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 10 
+ 	 No. of Matches    = 10 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:36:00 2023
+------------------------------Test : 11 test_idle_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:36 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 8 
+ 	 No. of Matches    = 6 
+ 	 No. of MisMatches = 2 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                   95
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 95
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:36:47 2023
+------------------------------Test : 12 test_busy_wr------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:43 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 6da5ccdf Actual = 6da5ccdf
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 6ce94a5 Actual = 6ce94a5
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 9 
+ 	 No. of Matches    = 9 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  105
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 105
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:43:30 2023
+------------------------------Test : 13 test_busy_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:43 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 6 
+ 	 No. of Matches    = 4 
+ 	 No. of MisMatches = 2 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                   75
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:43:53 2023
+------------------------------Test : 14 test_WORD_wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 19:59 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 6d9de1ab Actual = 6d9de1ab
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 873ca504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 6d9de1ab Actual = 6d9de1ab
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 5e4eb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 56b899cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 10 
+ 	 No. of Matches    = 10 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 19:59:27 2023
+------------------------------Test : 15 test_HALFWORD_wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 20:05 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-HALFWORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxa504 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-HALFWORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = xxxxe1ab Actual = 6d9de1ab
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-HALFWORD-TEST-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxb1bf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-HALFWORD-TEST-PASS] Addr = 30,
+ 	   Data :: Expected = xxxx99cc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxa504 Actual = xxxxa504
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = xxxxe1ab Actual = xxxxe1ab
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxb1bf Actual = xxxxb1bf
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 30,
+ 	   Data :: Expected = xxxx99cc Actual = xxxx99cc
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 30,
+ 	   Data :: Expected = xxxx99cc Actual = xxxx99cc
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 10 
+ 	 No. of Matches    = 10 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 20:05:21 2023
+------------------------------Test : 16 test_BYTE__wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 20:06 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-BYTE-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxx04 Actual = 873ca504
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-BYTE-TEST-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxab Actual = 6d9de1ab
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-BYTE-TEST-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxxxbf Actual = 5e4eb1bf
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-BYTE-TEST-PASS] Addr = 30,
+ 	   Data :: Expected = xxxxxxcc Actual = 56b899cc
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = xxxxxx04 Actual = xxxxxx04
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = xxxxxxab Actual = xxxxxxab
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 18,
+ 	   Data :: Expected = xxxxxxbf Actual = xxxxxxbf
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 30,
+ 	   Data :: Expected = xxxxxxcc Actual = xxxxxxcc
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 30,
+ 	   Data :: Expected = xxxxxxcc Actual = xxxxxxcc
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 10 
+ 	 No. of Matches    = 10 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 20:06:49 2023
+------------------------------Test : 18 test_Idle_to_NonSeq__wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 20:39 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 44,
+ 	   Data :: Expected = 92392 Actual = 92392
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 54,
+ 	   Data :: Expected = 43f55 Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 48,
+ 	   Data :: Expected = fd343 Actual = fd343
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 60,
+ 	   Data :: Expected = 23434 Actual = 23434
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 64,
+ 	   Data :: Expected = adf3432 Actual = adf3432
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 68,
+ 	   Data :: Expected = 235436 Actual = 235436
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 6c,
+ 	   Data :: Expected = 235436 Actual = 235436
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 325345af Actual = 325345af
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 44,
+ 	   Data :: Expected = 92392 Actual = 92392
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-FAIL] Addr = 54,
+ 	   Data :: Expected = xxxxxxxx Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-FAIL] Addr = 48,
+ 	   Data :: Expected = xxxxxxxx Actual = fd343
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 60,
+ 	   Data :: Expected = xxxxxxxx Actual = 23434
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 155
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 13-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 60,
+ 	   Data :: Expected = xxxxxxxx Actual = 23434
+Info: "scoreboard.sv", 199: $unit: at time 155
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 165
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 14-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 60,
+ 	   Data :: Expected = 23434 Actual = 23434
+Info: "scoreboard.sv", 199: $unit: at time 165
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 175
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 15-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 64,
+ 	   Data :: Expected = adf3432 Actual = adf3432
+Info: "scoreboard.sv", 199: $unit: at time 175
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 185
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 16-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 68,
+ 	   Data :: Expected = 235436 Actual = 235436
+Info: "scoreboard.sv", 199: $unit: at time 185
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 17 
+ 	 No. of Matches    = 13 
+ 	 No. of MisMatches = 4 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  185
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 185
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 20:39:17 2023
+------------------------------Test : 19 test_Busy_to_Seq__wr_rd------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 20:43 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 24,
+ 	   Data :: Expected = 92392 Actual = 92392
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 28,
+ 	   Data :: Expected = 43f55 Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 2c,
+ 	   Data :: Expected = fd343 Actual = fd343
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 20,
+ 	   Data :: Expected = 23434 Actual = 23434
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 23434 Actual = 23434
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 24,
+ 	   Data :: Expected = 92392 Actual = 92392
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-FAIL] Addr = 28,
+ 	   Data :: Expected = xxxxxxxx Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Busy] Slave is busy.
+[Scoreboard-Busy-Test-FAIL] Addr = 28,
+ 	   Data :: Expected = xxxxxxxx Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 28,
+ 	   Data :: Expected = xxxxxxxx Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 28,
+ 	   Data :: Expected = xxxxxxxx Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 28,
+ 	   Data :: Expected = 43f55 Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 2c,
+ 	   Data :: Expected = fd343 Actual = fd343
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 13 
+ 	 No. of Matches    = 9 
+ 	 No. of MisMatches = 4 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  145
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 145
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 20:43:58 2023
+------------------------------Test : 20 test_addr_change_in_idle------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 20:49 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 20,
+ 	   Data :: Expected = ffdd1 Actual = ffdd1
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 1c,
+ 	   Data :: Expected = 43f55 Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 2c,
+ 	   Data :: Expected = fd343 Actual = fd343
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 29ff7 Actual = 29ff7
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 75
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 5-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = a44387 Actual = a44387
+Info: "scoreboard.sv", 199: $unit: at time 75
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 85
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 6-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 234fd Actual = 234fd
+Info: "scoreboard.sv", 199: $unit: at time 85
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 95
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 7-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 10,
+ 	   Data :: Expected = 22387d Actual = 22387d
+Info: "scoreboard.sv", 199: $unit: at time 95
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 105
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 8-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 0,
+ 	   Data :: Expected = 945833 Actual = 945833
+Info: "scoreboard.sv", 199: $unit: at time 105
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 115
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 9-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 20,
+ 	   Data :: Expected = ffdd1 Actual = ffdd1
+Info: "scoreboard.sv", 199: $unit: at time 115
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 125
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 10-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-FAIL] Addr = 1c,
+ 	   Data :: Expected = xxxxxxxx Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 125
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 135
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 11-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Idle] Slave is idle.
+[Scoreboard-Idle-Test-FAIL] Addr = 2c,
+ 	   Data :: Expected = xxxxxxxx Actual = fd343
+Info: "scoreboard.sv", 199: $unit: at time 135
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 145
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 12-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = 29ff7
+Info: "scoreboard.sv", 199: $unit: at time 145
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 155
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 13-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-FAIL] Addr = 4,
+ 	   Data :: Expected = xxxxxxxx Actual = 29ff7
+Info: "scoreboard.sv", 199: $unit: at time 155
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 165
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 14-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 29ff7 Actual = 29ff7
+Info: "scoreboard.sv", 199: $unit: at time 165
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 175
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 15-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = a44387 Actual = a44387
+Info: "scoreboard.sv", 199: $unit: at time 175
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 185
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 16-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = c,
+ 	   Data :: Expected = 234fd Actual = 234fd
+Info: "scoreboard.sv", 199: $unit: at time 185
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 195
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 17-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 10,
+ 	   Data :: Expected = 22387d Actual = 22387d
+Info: "scoreboard.sv", 199: $unit: at time 195
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 205
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 18-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-READ-WORD-TEST-PASS] Addr = 10,
+ 	   Data :: Expected = 22387d Actual = 22387d
+Info: "scoreboard.sv", 199: $unit: at time 205
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 215
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 19-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 1c,
+ 	   Data :: Expected = 43f55 Actual = 43f55
+Info: "scoreboard.sv", 199: $unit: at time 215
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 20 
+ 	 No. of Matches    = 16 
+ 	 No. of MisMatches = 4 
+
+	 TEST HAS FAILED. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                  215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 215
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 20:49:36 2023
+------------------------------Test : 21 test_error_resp------------------------------
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Sep 26 20:54 2023
+INFO   : No memory technology specified. Using generic inferred memory (tbench_top.dut.ram_inst)
+INFO   : No memory technology specified. Using generic inferred memory (rl_ram_1rw)
+--------- [DRIVER] Reset Started ---------
+--------- [DRIVER] Reset Ended ---------
+Info: "scoreboard.sv", 159: $unit: at time 25
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 0-----------------------------
+[Scoreboard] Slave is not connected.
+[Scoreboard-Slave-Not-Connected-Test-PASS] Addr = 0,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 25
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 35
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 1-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 4,
+ 	   Data :: Expected = 23f4d Actual = 23f4d
+Info: "scoreboard.sv", 199: $unit: at time 35
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 45
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 2-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 45
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 55
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 3-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Not-Ready] Slave is not ready yet.
+[Scoreboard-Not-Ready-Test-PASS] Addr = 8,
+ 	   Data :: Expected = xxxxxxxx Actual = xxxxxxxx
+Info: "scoreboard.sv", 199: $unit: at time 55
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+Info: "scoreboard.sv", 159: $unit: at time 65
+[SCOREBOARD-ENTER] Data successfully recieved in scoreboard. Transaction 4-----------------------------
+[Scoreboard-Selection] Slave is connected.
+[Scoreboard-Ready] Slave is Ready for the transfer.
+[Scoreboard-Protection] Proctection for Data access only is Valid.
+[Scoreboard-WRITE-WORD-TEST-PASS] Addr = 8,
+ 	   Data :: Expected = 23f4d Actual = 23f4d
+Info: "scoreboard.sv", 199: $unit: at time 65
+[SCOREBOARD-LEAVE] Successfully leaving scoreboard. ----------------------------------------------------------------
+
+Summary: 
+ 	 Total no. of Transactions = 5 
+ 	 No. of Matches    = 5 
+ 	 No. of MisMatches = 0 
+
+	 TEST HAS PASSED SUCCESSFULLY. 
+
+$finish called from file "environment.sv", line 76.
+$finish at simulation time                   65
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 65
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Sep 26 20:54:55 2023
